@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career Connector - Job Search</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Career Connector</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Job Search</a></li>
+        <li><a href="#">Employer Dashboard</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="job-search">
+    <div class="container">
+      <h2>Job Search</h2>
+      <form>
+        <input type="text" name="keywords" placeholder="Keywords">
+        <input type="text" name="location" placeholder="Location">
+        <select name="category">
+          <option value="">Select Category</option>
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <!-- Add more category options here -->
+        </select>
+        <input type="submit" value="Search" class="btn">
+      </form>
+    </div>
+  </section>
+
+  <section id="job-results">
+    <div class="container">
+      <h3>Job Search Results</h3>
+      <div class="job-card">
+        <h4>Frontend Developer</h4>
+        <p>Company Name</p>
+        <p>Location</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+      <div class="job-card">
+        <h4>Backend Engineer</h4>
+        <p>Company Name</p>
+        <p>Location</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+      <!-- Add more job cards here -->
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Career Connector. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
